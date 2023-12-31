@@ -35,26 +35,15 @@ public class StartWindow extends JFrame {
         buttonsC.setLayout(new FlowLayout(FlowLayout.LEADING,20,10));
         buttonsC.setLayout(new BoxLayout(buttonsC,BoxLayout.Y_AXIS));
         FansyButton startButton = new FansyButton("Start Game");
-        FansyButton mini = new FansyButton("Whack a mole");
         FansyButton exit = new FansyButton("Exit");
 
         startButton.setAlignmentX(Component.CENTER_ALIGNMENT);
-        mini.setAlignmentX(Component.CENTER_ALIGNMENT);
         exit.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         startButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 new Menu("Game beta");
-                dispose();
-            }
-        });
-
-
-        mini.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                new Whack();
                 dispose();
             }
         });
@@ -66,9 +55,7 @@ public class StartWindow extends JFrame {
             }
         });
 
-        buttonsC.add(startButton);
-        buttonsC.add(mini);
-        buttonsC.add(exit);
+        buttonsC.add(startButton);        buttonsC.add(exit);
 
         getContentPane().add(buttonsC);
 

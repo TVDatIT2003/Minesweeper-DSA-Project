@@ -3,12 +3,7 @@ import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.Desktop;
 import java.io.*;
-import java.net.URI;
-import java.net.URISyntaxException;
 
 
 public class SmartSquare extends GameSquare implements MouseListener, TimeChecker
