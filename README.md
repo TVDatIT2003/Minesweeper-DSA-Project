@@ -51,5 +51,5 @@ In Minesweeper, players are presented with a grid of covered cells, concealing e
 | :---: |:----------------------:|:-----------:|:--------------------------------------:|:------------:|
 |   1   | Trần Văn Đạt (leader)  | ITITIU21173 | Github manager, project management     |     25%      |
 |   2   |  Nguyễn Phạm Đức Anh   | ITITIU21033 |   Code game, provide new idea          |     25%      |
-|   3   |     Phạm Thế Thiện     | ITDSIU20084 |   Code game, fix bugs, presentation    |     25%      |
+|   3   |     Phan Thế Thiện     | ITDSIU20084 |   Code game, fix bugs, presentation    |     25%      |
 |   4   |    Trịnh Tiến Đạt      | ITDSIU20109 |   Code game, powerpoint, report        |     25%      |
