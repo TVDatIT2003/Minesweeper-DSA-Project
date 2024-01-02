@@ -60,7 +60,7 @@ public class StartWindow extends JFrame {
         getContentPane().add(buttonsC);
 
         System.out.print('\n');
-        System.out.println("Mineswapeers   Developed By : Group ");
+        System.out.println("Mineswapeers   Developed By : Group IT21");
         System.out.println("-----------------------------------------");
         setVisible(true);
     }
