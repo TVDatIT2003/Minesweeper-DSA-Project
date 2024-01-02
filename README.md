@@ -1,7 +1,8 @@
 # Minesweeper-DSA-Project
 ## Introduction
-    - This is the Team 6 IT21 Minesweeper DSA final project. Minesweeper, a timeless puzzle game, challenges players to navigate a grid of cells, uncovering safe areas while avoiding hidden mines. It's a test of logic and quick decision-making.
-    - In Minesweeper, players are presented with a grid of covered cells, concealing either a safe space or a perilous mine. The objective is to reveal all safe cells without detonating any mines. Each uncovered cell provides valuable information, indicating the number of adjacent mines. Armed with this knowledge, players must strategically deduce the locations of mines and mark them with flags to proceed safely.
+This is the Team 6 IT21 Minesweeper DSA final project. Minesweeper, a timeless puzzle game, challenges players to navigate a grid of cells, uncovering safe areas while avoiding hidden mines. It's a test of logic and quick decision-making.
+
+In Minesweeper, players are presented with a grid of covered cells, concealing either a safe space or a perilous mine. The objective is to reveal all safe cells without detonating any mines. Each uncovered cell provides valuable information, indicating the number of adjacent mines. Armed with this knowledge, players must strategically deduce the locations of mines and mark them with flags to proceed safely.
 ## Documentation
 ### How to play:
 - **Left mouse**: start a game. Then based on the numbers you see, you have to figure out where the mines are and secure them with flags, and discover more numbers to find even more mines.
