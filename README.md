@@ -42,6 +42,9 @@
 |:---:|
 | **Congratulation Popup**|
 ## Tech stacks
+- Language: [JAVA](https://www.java.com/en/)
+- IDEA: [IntelliJ](https://www.jetbrains.com/idea/) [Visual Studio Code](https://code.visualstudio.com/)
+- Library: [JavaSwing](https://en.wikipedia.org/wiki/Swing_(Java)) and [JavaAWT](https://en.wikipedia.org/wiki/Abstract_Window_Toolkit)
 ## Contributing
 | Order |          Name          |     ID      |                Task                    | Contribution |
 | :---: |:----------------------:|:-----------:|:--------------------------------------:|:------------:|
