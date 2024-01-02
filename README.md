@@ -8,15 +8,39 @@
 - **Right mouse**: mark a field with flag.
 ### Features:
 - Completed: 
-    - Custom a bunch of map (beginner, intermediate, advanced).
+    - Share Mode: Allows players to share their results and achievements on social media platforms to challenge friends.
+    - Campaign Mode: Create interactive levels and missions, taking players through a structured and engaging journey
     - Turn back the previous step if click on mine.
-    - Build whack a mole (mini game)
+    - Skin Change: Gives players the flexibility to change the look and feel of the game, from color themes to icon types.
 ## Screenshot
 ### UML
 |<img src="screenshots/uml_diagram.png" alt="Configuration screen" width="1000"/> |
 |:---:|
 | **UML**|
 ### Minesweeper Screenshots
+|<img src="screenshots/config_main_game.png" alt="Configuration screen" width="400"/> |
+|:---:|
+| **Configuration Screen**|
+
+|<img src="screenshots/beginner_map.png" alt="Game play" width="400"/> |
+|:---:|
+| **Beginner Map Screen**|
+
+|<img src="screenshots/intermediate_map.png" alt="Fail screen" width="400"/> |
+|:---:|
+| **Intermediate Map Screen**|
+
+|<img src="screenshots/advanced_map.png" alt="Fail screen" width="400"/> |
+|:---:|
+| **Advanced Screen Screen**|
+
+|<img src="screenshots/popup_gameover.png" alt="Fail screen" width="400"/> |
+|:---:|
+| **Game Over Popup**|
+
+|<img src="screenshots/popup_win.png" alt="Fail screen" width="400"/> |
+|:---:|
+| **Congratulation Popup**|
 ## Tech stacks
 ## Contributing
 | Order |          Name          |     ID      |                Task                    | Contribution |
