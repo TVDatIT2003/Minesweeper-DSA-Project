@@ -1,9 +1,13 @@
 
 import javax.sound.sampled.*;
 import javax.swing.*;
+
+import java.awt.Desktop;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.*;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 
 public class SmartSquare extends GameSquare implements MouseListener, TimeChecker
@@ -194,21 +198,29 @@ public class SmartSquare extends GameSquare implements MouseListener, TimeChecke
     }
 
     public void window1(String msg, String title, Icon img)
-    {
-        CheckSquare cq = new CheckSquare(board);
-        int choose = JOptionPane.showConfirmDialog(board, msg, title,
-                JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,img);
+	{
+		CheckSquare cq = new CheckSquare(board);
+		int choose = JOptionPane.showConfirmDialog(board, msg, title,
+				JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,img);
 
-        if (choose == JOptionPane.YES_OPTION)
-        {
-            setImage(SmartSquare.class.getResource("/block.png"));
+		if (choose == JOptionPane.YES_OPTION)
+		{
+			setImage(SmartSquare.class.getResource("/block.png"));
 
-        } else 
-        {
-            board.dispose();
-        }
-        
-    }
+		}else {
+			cq.showBomb(xLocation,yLocation);
+			window("Do you want to go back to the menu?\nOr click No to see a small suprise ;3", "Continute :>",new ImageIcon(SmartSquare.class.getResource("/passFace.jpg")));
+			try {
+				Desktop desk = Desktop.getDesktop();
+				desk.browse(new URI("https://youtu.be/dQw4w9WgXcQ"));
+			} catch (IOException e) {
+				throw new RuntimeException(e);
+			} catch (URISyntaxException e) {
+				throw new RuntimeException(e);
+			}
+			board.dispose();
+		}
+	}
 
 
     /**
